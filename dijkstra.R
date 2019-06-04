@@ -136,7 +136,7 @@ A[4, 5]<-0
 
 
 ############
-### Application
+### Execution
 ############
 
 dijkstraSolver(A)
