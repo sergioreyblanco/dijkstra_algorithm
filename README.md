@@ -2,7 +2,10 @@
 
 Here is a very simple implementation of the Dijkstra algorithm in R language. 
 
-An instance of this function execution with `example1` is shown here: ![alt text](https://github.com/sergioreyblanco/dijkstra_algorithm/blob/master/execution.PNG) 
+An instance of this function execution with `example1` is shown here: 
+
+![alt text](https://github.com/sergioreyblanco/dijkstra_algorithm/blob/master/execution.PNG) 
+
 
 The whole algorithm is implementated in the function `dijkstraSolver`. It is divided in three well diferenced steps: general initialization, first node initialization and processing of the rest of the nodes. Default, initial node is defined by a node that has no incident edges and the last node by a node that has no leaving edges.
 
