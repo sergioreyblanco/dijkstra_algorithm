@@ -73,7 +73,7 @@ dijkstraSolver <- function(weightMatrix){
     solutionRoute <- c(solutionRoute, E[solutionRoute[length(solutionRoute)]])
   }
   
-  return(list('solucion' = rev(solutionRoute), 'objective value' = pi[endNode]))
+  return(list('solution' = rev(solutionRoute), 'objective value' = pi[endNode]))
 }
 
 
